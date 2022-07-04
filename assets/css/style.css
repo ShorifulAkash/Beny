@@ -382,5 +382,85 @@ a {
   line-height: 30px;
   font-weight: 400;
 }
+.service .service-card .card-body {
+  width: 100%;
+  height: 100%;
+  clear: both;
+  float: left;
+  position: relative;
+  background-color: #f9f9fc;
+  padding: 50px 50px 40px;
+  border-radius: 6px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.service .service-card .card-body:hover a span {
+  width: 30px;
+  background-color: #d6002f;
+}
+.service .service-card .card-body svg {
+  width: 50px;
+  height: 50px;
+  color: #d6002f;
+  margin-bottom: 25px;
+  fill: none;
+}
+.service .service-card .card-body h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #0F172A;
+  margin-bottom: 20px;
+}
+.service .service-card .card-body a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.service .service-card .card-body a span {
+  position: s;
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #7e7e7e;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: 14px;
+  border-radius: 50px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.service .service-card .card-body a span ::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 2px;
+  background-color: #7e7e7e;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  top: -2px;
+  border-radius: 50px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.service .service-card .card-body a span ::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 2px;
+  background-color: #7e7e7e;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  right: 0;
+  bottom: -2px;
+  border-radius: 50px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
 
 /*# sourceMappingURL=style.css.map */
