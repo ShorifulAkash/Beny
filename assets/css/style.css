@@ -393,8 +393,12 @@ a {
   border-radius: 6px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  cursor: pointer;
 }
-.service .service-card .card-body:hover a span {
+.service .service-card .card-body:hover .learn {
+  color: #d6002f;
+}
+.service .service-card .card-body:hover .learn span {
   width: 30px;
   background-color: #d6002f;
 }
@@ -411,16 +415,15 @@ a {
   color: #0F172A;
   margin-bottom: 20px;
 }
-.service .service-card .card-body a {
+.service .service-card .card-body .learn {
   text-decoration: none;
   color: #7e7e7e;
   font-size: 18px;
-  display: inline-block;
   position: relative;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-.service .service-card .card-body a span {
+.service .service-card .card-body .learn span {
   position: s;
   display: inline-block;
   width: 10px;
@@ -434,7 +437,7 @@ a {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-.service .service-card .card-body a span ::before {
+.service .service-card .card-body .learn span ::before {
   position: absolute;
   content: "";
   width: 6px;
@@ -448,7 +451,7 @@ a {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-.service .service-card .card-body a span ::after {
+.service .service-card .card-body .learn span ::after {
   position: absolute;
   content: "";
   width: 6px;

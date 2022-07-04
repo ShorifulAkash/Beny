@@ -395,7 +395,11 @@ a{
             padding: 50px 50px 40px;
             border-radius: 6px;
             transition: all .3s ease;
-            &:hover a span{
+            cursor: pointer;
+            &:hover .learn{
+                color: #d6002f;
+            } 
+            &:hover .learn span{
                 width: 30px;
                 background-color: #d6002f;
             }
@@ -412,11 +416,11 @@ a{
                 color: #0F172A;
                 margin-bottom: 20px;
             }
-            a{
+            .learn{
                 text-decoration: none;
                 color: #7e7e7e;
                 font-size: 18px;
-                display: inline-block;
+                // display: inline-block;
                 position: relative;
                 transition: all .3s ease;
                 span{
@@ -456,6 +460,7 @@ a{
                     }
                 }
             }
+
         }
     }
 }
