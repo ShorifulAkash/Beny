@@ -464,3 +464,147 @@ a{
         }
     }
 }
+
+
+.portfolio{
+    padding: 100px 0 100px;
+    background-color: #F9F9FC;
+    .sub-heading{
+        margin-bottom: 72px;
+        .sub-head{
+            display: inline-block;
+            position: relative;
+            color: #d6002f;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0px 0px 2px;
+            :before{
+                position: absolute;
+                content: "";
+                width: 40px;
+                height: 1px;
+                background-color: #d6002f;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 100%;
+                margin-left: 10px;
+            }
+        }
+        .sub-title{
+            color: #0f172a;
+            font-size: 50px;
+            line-height: 65px;
+            margin: 0px 0px 10px;
+            font-weight: 700;
+        }
+        .sub-text{
+            color: #7e7e7e;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+    .portfolio-body{
+        .portfolio-card{
+            margin-bottom: 25px;
+            .inner-list{
+                position: relative;
+                overflow: hidden;
+                img{
+                    border-radius: 5px;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                .overlay{
+                    position: absolute;
+                    width: 100%;
+                    top: 50%;
+                    // transform: translateY(-50%);
+                    text-align: center;
+                    h3{
+                        text-transform: uppercase;
+                        transform: translateY(-10px);
+                        opacity: 0;
+                        transition: .5s all ease;
+                        color:#fff;
+                        font-size: 25.5px;
+                        line-height: 45.9px;
+                        letter-spacing: 5.1px;
+                        font-weight: 700;
+                    }
+                    p{
+                        transform: translateY(10px);
+                        transition: .5s all ease;
+                        opacity: 0;
+                        transition: .5s all ease;
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 32.4px;
+                        font-weight: 400;
+                    }
+                }
+                :before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background-color: rgba(21, 21, 23, 0.9);
+                    opacity: 0;
+                    transform: scale(0.8);
+                    transition: .5s all ease;
+                }
+                &:hover :before{
+                    transform: scale(1);
+                    opacity: .8;
+                }
+                &:hover .overlay h3, p{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.testimonial{
+    padding: 100px 0 100px;
+    .sub-heading{
+        margin-bottom: 72px;
+        .sub-head{
+            display: inline-block;
+            position: relative;
+            color: #d6002f;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0px 0px 2px;
+            :before{
+                position: absolute;
+                content: "";
+                width: 40px;
+                height: 1px;
+                background-color: #d6002f;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 100%;
+                margin-left: 10px;
+            }
+        }
+        .sub-title{
+            color: #0f172a;
+            font-size: 50px;
+            line-height: 65px;
+            margin: 0px 0px 10px;
+            font-weight: 700;
+        }
+        .sub-text{
+            color: #7e7e7e;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+}
