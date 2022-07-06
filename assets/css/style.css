@@ -866,7 +866,7 @@ a {
   padding: 100px 0 100px;
 }
 .contact .sub-heading {
-  margin-bottom: 40px;
+  margin-bottom: 55px;
   padding-right: 100px;
 }
 .contact .sub-heading .sub-head {
@@ -932,7 +932,7 @@ a {
   font-weight: 400;
 }
 .contact .form {
-  padding-left: 100px;
+  padding-left: 90px;
 }
 .contact .form .title p {
   color: #7e7e7e;
@@ -985,7 +985,7 @@ a {
   background-color: transparent;
   font-size: 20px;
   line-height: 30px;
-  margin: 0px 0px 48px;
+  margin: 0px 0px 29px;
   font-weight: 500;
 }
 .contact .form .input .contact-btn:hover {
