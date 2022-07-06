@@ -22,17 +22,24 @@ a {
   text-decoration: none;
 }
 
+.header {
+  padding: 9px 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
 .header .navbar .navbar-brand {
   padding-left: 48px;
 }
 .header .navbar .navbar-brand img {
-  width: 70%;
+  max-width: 75px;
 }
 .header .navbar .navbar-nav {
-  padding-right: 40px;
+  margin-right: 48px;
 }
 .header .navbar .navbar-nav .nav-item {
-  margin-right: 23px;
+  margin-right: 9px;
 }
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #7e7e7e;
@@ -62,13 +69,33 @@ a {
   transition: all .3s ease;
 }
 .header .navbar .navbar-nav .nav-item .nav-btn {
-  padding: 3px 25px;
+  padding: 6px 25px;
   border: 2px solid #7e7e7e;
   border-radius: 6px;
 }
+.header .navbar .navbar-nav :last-child {
+  margin-right: 0;
+}
 
-.hero {
+.in {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.hero .bgc {
+  background-image: url(../images/bene-hero.jpg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 100%;
   height: 100vh;
+}
+.hero .bgc .hero-content {
+  padding-top: 186px;
 }
 .hero .bgc .hero-content h3 {
   color: #0f172a;
@@ -80,7 +107,7 @@ a {
 .hero .bgc .hero-content h1 {
   color: #0f172a;
   font-size: 55px;
-  line-height: 66px;
+  line-height: 67px;
   margin: 0px 0px 17px;
   font-weight: 700;
 }
@@ -249,7 +276,7 @@ a {
   color: #0f172a;
   font-size: 40px;
   line-height: 52px;
-  margin: 0px 0px 10px;
+  margin: 0px 0px 70px;
   font-weight: 700;
   text-align: center;
 }
