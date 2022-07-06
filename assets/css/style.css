@@ -292,15 +292,23 @@ a {
   left: 100%;
   margin-left: 10px;
 }
-.about .resume .skill .skill-list .skill-wrapper {
-  margin-bottom: 30px;
+.about .resume .skill .skill-list {
+  margin-top: 35px;
 }
-.about .resume .skill .skill-list .skill-wrapper span {
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase;
-  font-family: Inconsolata,monospace;
-  margin-bottom: 10px;
+.about .resume .skill .skill-list .skill-item {
+  margin-bottom: 18px;
+}
+.about .resume .skill .skill-list .skill-item .label {
+  padding: 8px 0;
+  color: #0f172a;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.about .resume .skill .skill-list .skill-item .progress .progress-bar {
+  background: #d6002f;
+  border-radius: 18px;
 }
 .about .resume .education {
   padding-left: 125px;
@@ -340,6 +348,27 @@ a {
           transform: translateY(-50%);
   left: 100%;
   margin-left: 10px;
+}
+.about .resume .education .edu-list {
+  margin-top: 35px;
+}
+.about .resume .education .edu-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.about .resume .education .edu-list ul li {
+  padding: 10px 0 8px;
+}
+.about .resume .education .edu-list ul li p {
+  color: #7e7e7e;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.about .resume .education .edu-list ul li p .sub {
+  color: #0f172a;
+  font-size: 18px;
 }
 
 .service {
