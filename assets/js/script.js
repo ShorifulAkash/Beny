@@ -9,6 +9,8 @@ $(window).scroll(function() {
     }
 });
 
+
+
 // OwlCarousel section
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
