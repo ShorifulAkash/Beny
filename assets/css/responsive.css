@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 991px) {
+    .about .about-img{
+        margin-right: 0;
+    }
+    .about .about-text{
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .about .resume .skill{
+        padding-right: 0;
+    }
+    .about .resume .education{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .about .resume .education .edu-list ul li p span br{
+        display: none;
+    }
+    .service .service-card .card-body{
+        margin-bottom: 20px;
+    }
+    .testimonial .owl-carousel .client-info{
+        width: 100%;
+    }
+    .news .news-body .news-item{
+        margin-bottom: 30px;
+    }
+    .news .news-body .news-item .news-photo a img{
+        width: 100%;
+    }
+    .contact .form{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    br{
+        display: none;
+    }
+}
